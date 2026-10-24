@@ -68,8 +68,11 @@ body {
     position: relative;
     width: 200px;
     height: 40px;
-    background-color: rgba(175, 248, 175, 0.304);
+    background-color: rgba(138, 251, 138, 0.304);
     border-radius: 5px;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
 }
 
 .fileUploadButtonWrapper div {
