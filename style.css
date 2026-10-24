@@ -22,11 +22,16 @@ body {
 }
 
 .fileUploadArea {
-    margin-left: 50px;
     background-color: rgb(157, 246, 171);
-    width: calc(100% - 100px);
+    width: 700px;
     height: fit-content;
     border-radius: 10px;
+}
+
+#fileDropArea div .orLabel {
+    text-align: center;
+    font-family: arial;
+    font-size: 23px;
 }
 
 .fileUploadAreaMarginBar {
@@ -56,7 +61,7 @@ body {
     border-radius: 5px;
     border-style: dashed;
     border-color: green;
-    border-width:2px;
+    border-width: 2px;
 }
 
 .fileUploadButtonWrapper {
@@ -88,7 +93,7 @@ body {
     width: 100%;
     height: 100%;
     opacity: 0;
-    cursor:pointer
+    cursor: pointer
 }
 
 #fileDropArea div {
@@ -101,6 +106,6 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
-    width: calc(100% - 40px);
+    width: 100px;
     height: 30px;
 }
