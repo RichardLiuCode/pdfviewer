@@ -4,7 +4,7 @@
 <head>
   <title>Website Title</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="favicon.png">
+  <link rel="icon" href="PDF ICON.png">
   <script defer src="script.js"></script>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
@@ -12,32 +12,40 @@
 <body>
   <div id="uploadPage">
     <h1>PDF Reader</h1>
-    <div class="fileUploadArea">
-      <div class="fileUploadAreaMarginBar"></div>
-      <h2 class="fileUploadAreaTitle">Upload A PDF file</h2>
-      <div class="fileUploadAreaMarginBar"></div>
-      <div class="fileFormWrapper">
-        <div id="fileDropArea">
+    <div class="BodyWrapper1">
+      <div class="fileUploadArea">
+        <div class="fileUploadAreaMarginBar"></div>
+        <h2 class="fileUploadAreaTitle">Upload A PDF file</h2>
+        <div class="fileUploadAreaMarginBar"></div>
+        <div class="fileFormWrapper">
           <div>
-            Drag and Drop your File Here
-            <div class="orLabel">
-              <p>OR</p>
+            <div id="fileDropArea">
+              <div>
+                Drag and Drop your File Here
+                <div class="orLabel">
+                  <p>OR</p>
+                </div>
+                <button class="fileUploadButtonWrapper">
+                  <div>Browse Files</div>
+                  <input id="fileInput" type="file" accept=".pdf">
+                </button>
+                <p class="fileNamePreview">
+                  <img src="PDF ICON.png" alt="PDF File ICON">
+                  <span id="FileNamePreviewLabel">FileName.pdf</span>
+                </p>
+              </div>
             </div>
-            <div class="fileUploadButtonWrapper">
-              <div>Browse Files</div>
-              <input id="fileInput" type="file" accept=".pdf">
+            <div class="fileOpenButtonWrapper">
+              <button id="openBtn">Open</button>
             </div>
           </div>
+
         </div>
-
       </div>
-      <button id="openBtn">Open</button>
     </div>
+    <div id="viewerPage">
 
-  </div>
-  <div id="viewerPage">
-
-  </div>
+    </div>
 </body>
 
 </html>
