@@ -67,6 +67,7 @@ h1 {
 .fileUploadAreaTitle {
     margin: 0px;
     text-align: center;
+    color: rgb(28, 156, 28);
 }
 
 .fileFormWrapper {
