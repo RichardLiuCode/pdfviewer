@@ -171,8 +171,9 @@ h1 {
 }
 
 #openBtn {
+    display:none;
+    margin:0px;
     cursor: pointer;
-    margin-top: 20px;
     width: 100px;
     height: 30px;
     border-radius: 5px;
