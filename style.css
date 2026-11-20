@@ -125,6 +125,7 @@ h1 {
 }
 
 #FileNamePreviewWrapper {
+    display: none;
     margin-top: 20px;
     margin-bottom: 5px;
     user-select: none;
@@ -172,7 +173,6 @@ h1 {
 #openBtn {
     cursor: pointer;
     margin-top: 20px;
-    margin-bottom: 20px;
     width: 100px;
     height: 30px;
     border-radius: 5px;
@@ -182,4 +182,9 @@ h1 {
     background-color: rgb(27, 198, 27);
     color: white;
     font-size: 20px;
+}
+
+.bottom20pxLineBreak {
+    width: 100%;
+    height: 20px;
 }
