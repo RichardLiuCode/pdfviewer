@@ -124,6 +124,21 @@ h1 {
     cursor: pointer;
 }
 
+#FileNamePreviewWrapper {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    user-select: none;
+    background-color: white;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: calc(100% - 10px);
+    border-color: green;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
 .fileNamePreview {
     Display: flex;
     justify-content: center;
